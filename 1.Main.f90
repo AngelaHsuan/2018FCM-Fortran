@@ -22,11 +22,9 @@ program Main
             call sine
         end if
         
-        write(*,*)''
         write(*,*)'Do you want to do it again?(y/n)'
         read(*,*)again
         
     end do
-    pause
     
 end program Main
